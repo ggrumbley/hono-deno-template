@@ -1,4 +1,6 @@
 {
+  "name": "@ggrumbley/hono-tasks-template",
+  "version": "1.0.0",
   "imports": {
     "@hono/zod-openapi": "npm:@hono/zod-openapi@^0.17.0",
     "@std/crypto": "jsr:@std/crypto@^1.0.3",
