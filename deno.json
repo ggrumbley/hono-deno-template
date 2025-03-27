@@ -1,11 +1,13 @@
 {
   "name": "@ggrumbley/hono-tasks-template",
   "version": "1.0.0",
+  "exports": "./src/main.ts",
   "imports": {
+    "@hono/hono": "jsr:@hono/hono@^4.7.4",
     "@hono/zod-openapi": "npm:@hono/zod-openapi@^0.17.0",
+    "@scalar/hono-api-reference": "npm:@scalar/hono-api-reference@^0.7.3",
     "@std/crypto": "jsr:@std/crypto@^1.0.3",
     "@std/log": "jsr:@std/log@^0.224.10",
-    "hono": "npm:hono@^4.6.10",
     "hono-pino": "npm:hono-pino@^0.6.0",
     "pino": "npm:pino@^9.5.0",
     "pino-pretty": "npm:pino-pretty@^13.0.0",

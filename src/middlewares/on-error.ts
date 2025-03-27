@@ -1,6 +1,6 @@
 import process from 'node:process';
 import type { ErrorHandler, Context } from '@hono/zod-openapi/types';
-import type { StatusCode } from 'hono/utils/http-status';
+import type { StatusCode } from '@hono/hono/utils/http-status';
 
 import { INTERNAL_SERVER_ERROR, OK } from '../constants/http-status-codes.ts';
 
